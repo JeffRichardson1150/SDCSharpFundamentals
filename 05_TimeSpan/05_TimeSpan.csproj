@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0CDC96D1-D9FC-4777-B9EB-937285378CDD}</ProjectGuid>
+    <ProjectGuid>{65806E88-6A1F-4089-B704-CD6B4C7C91D7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_04_Loops</RootNamespace>
-    <AssemblyName>04_Loops</AssemblyName>
+    <RootNamespace>_05_TimeSpan</RootNamespace>
+    <AssemblyName>05_TimeSpan</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Loops.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

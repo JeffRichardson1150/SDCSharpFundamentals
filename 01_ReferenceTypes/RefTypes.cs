@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _01_ReferenceTypes
 {
-    class Program
+    class RefTypes
     {
         static void Main(string[] args)
         {

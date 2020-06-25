@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0CDC96D1-D9FC-4777-B9EB-937285378CDD}</ProjectGuid>
+    <ProjectGuid>{59CF17F5-4FD9-4BAF-B814-DC735D36016E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_04_Loops</RootNamespace>
-    <AssemblyName>04_Loops</AssemblyName>
+    <RootNamespace>_00_ConvertStringToNumbers</RootNamespace>
+    <AssemblyName>00_ConvertStringToNumbers</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Loops.cs" />
+    <Compile Include="ConvertString.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
