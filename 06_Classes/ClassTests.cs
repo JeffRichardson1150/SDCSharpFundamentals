@@ -36,7 +36,7 @@ namespace _06_Classes
             Console.WriteLine(personTwo.AgeInYears); ;
             Console.WriteLine(personTwo.FullName);
 
-            Person newPerson = new Person("Zuko", "FireLord", DateTime(1990, 06, 22));
+            Person newPerson = new Person("Zuko", "FireLord", new DateTime(1990, 06, 22));
             newPerson.Transport = new Vehicle("Pontiac", "Firebird", 1989, 100123, "Red & Gold", VehicleType.Car);
             Console.WriteLine(newPerson.Transport.Model);
 

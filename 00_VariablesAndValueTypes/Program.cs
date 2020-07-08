@@ -59,7 +59,7 @@ namespace _00_VariablesAndValueTypes
             PastryType anotherOne = PastryType.Donut;
 
             // Structs - number types are Structs but they have a default of 0 vs null (as with other Structs)
-            Int32 num = 42; // this is a Struct. It defaults to 0
+            Int32 numX = 42; // this is a Struct. It defaults to 0
             DateTime today = DateTime.Today; // assign today's date
             DateTime birthday = new DateTime(1962, 10, 19); // new up an instance of DateTime; This has overloads - hover over the () and select ticks or kind / a year, month, day / 
 

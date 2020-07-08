@@ -10,6 +10,11 @@ namespace _00_ConvertStringToNumbers
     {
         static void Main(string[] args)
         {
+            // Cast a double as a decimal
+            double dbl = 1.2345D;
+            decimal dec = (decimal)dbl;
+            Console.WriteLine(dec);
+
             // Convert using Convert methods
             decimal stringToDecimal = Convert.ToDecimal("100.123456789012345");
                 Console.WriteLine("decimal " + stringToDecimal);

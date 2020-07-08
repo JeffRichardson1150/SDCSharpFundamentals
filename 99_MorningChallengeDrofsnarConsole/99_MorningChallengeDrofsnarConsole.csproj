@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{65806E88-6A1F-4089-B704-CD6B4C7C91D7}</ProjectGuid>
+    <ProjectGuid>{3E65FF64-CB0C-432B-A4AC-5005CC75B5BB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_05_TimeSpan</RootNamespace>
-    <AssemblyName>05_TimeSpan</AssemblyName>
+    <RootNamespace>_99_MorningChallengeDrofsnarConsole</RootNamespace>
+    <AssemblyName>_99_MorningChallengeDrofsnarConsole</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TimeSpanExample.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

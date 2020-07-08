@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{65806E88-6A1F-4089-B704-CD6B4C7C91D7}</ProjectGuid>
+    <ProjectGuid>{5DF0C5AF-38F1-42C6-951B-F4B68E350D33}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_05_TimeSpan</RootNamespace>
-    <AssemblyName>05_TimeSpan</AssemblyName>
+    <RootNamespace>_99_MorningChallenge_DrofsnarConsole</RootNamespace>
+    <AssemblyName>99_MorningChallenge_DrofsnarConsole</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,11 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TimeSpanExample.cs" />
+    <Compile Include="DrofsnarConsole.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\99_MorningChallenge_DrofsnarClasses\99_MorningChallenge_DrofsnarClasses.csproj">
+      <Project>{01126701-4862-4D13-BBFD-7DE265206851}</Project>
+      <Name>99_MorningChallenge_DrofsnarClasses</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MoveList.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

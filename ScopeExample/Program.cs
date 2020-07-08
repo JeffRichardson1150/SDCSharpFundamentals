@@ -9,22 +9,15 @@ namespace _99_ScopeExample
 {
     class Program
     {
-        int c1 = 5;
+        int cOne = 5;
+        cOne = 30;   // ERROR - out of scope ==>> this is a problem with doing an assignment in the
         public void Main(string[] args)
         {
-            int m1 = 10;
-            c1 = 10;
-            m2 = 10;   // ERROR - out of scope
+            Console.WriteLine("hello");
         }
         public void Second(string[] args)
         {
-            int m2 = 20;
-            m1 = 20;   // ERROR - out of scope
-            c1 = 20;
+            Console.WriteLine("goodbye");
         }
-        c1 = 30;   // ERROR - out of scope ==>> this is a problem with doing an assignment in the Class; not a scope problems
-        m1 = 30;   // ERROR - out of scope
-        m2 = 30;   // ERROR - out of scope
-
     }
 }

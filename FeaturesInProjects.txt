@@ -1,0 +1,5 @@
+Convert Types - see 00_ConvertStringToNumbers
+> string to Decimal, Float, Double, Short, Int, Long
+> 
+
+Parse values

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace _06_Classes
 {
     public enum VehicleType { Car, Truck, Motorcycle, Spaceship, Plane, Boat, Submarine }
-    class Vehicle
+    public class Vehicle
     {
         // Properties : 
         // [Access Modifer] [Type the Property can hold] [Property Name] { [Getters; & Setters;] }

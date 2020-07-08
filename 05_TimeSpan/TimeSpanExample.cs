@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _05_TimeSpan
 {
-    class Program
+    class TimeSpanExample
     {
         static void Main(string[] args)
         {
