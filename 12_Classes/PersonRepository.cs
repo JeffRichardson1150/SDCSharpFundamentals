@@ -11,6 +11,7 @@ namespace _12_Classes
         // A new instance - the list is empty. The list may only hold items of type Person
         // '_' signifies this is a "field" - it will be used throughout the program. It doesn't affect it's function.  Like div / section / etc in HTML
         // Declare the list at the top of the repository; we'll use the list in all our methods in the PersonRepository class. (it's "global")
+
         List<Person> _listOfPeople = new List<Person>();
 
         public void AddPerson(Person x)

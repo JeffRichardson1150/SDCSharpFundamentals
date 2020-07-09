@@ -43,11 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="PlayGame.cs" />
+    <Compile Include="PlayGameUI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\55_PairProgramming_Class\55_PairProgramming_Class.csproj">
+      <Project>{3EFB4A9E-4350-42DA-A916-3CEC3A2701C4}</Project>
+      <Name>55_PairProgramming_Class</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

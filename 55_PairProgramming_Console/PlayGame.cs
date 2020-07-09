@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace _55_PairProgramming_Console
 {
-    class Program
+    class PlayGame
     {
         static void Main(string[] args)
         {
+            PlayGameUI ui = new PlayGameUI();
+            ui.Run();
+
         }
     }
 }
